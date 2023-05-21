@@ -1,0 +1,34 @@
+.favorites{
+    min-height: 80vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    text-align: center;
+}
+
+.favorites_cont{
+    width: 300px;
+}    
+.btn_remove{
+    width: 300px;
+    background-color: white;
+    border-radius: 5px;
+    border-style: outset;
+    border-color: red;
+    color: rgb(219, 21, 21);
+    font-size: 17px;
+    height: 40px; 
+
+}
+
+.btn_remove:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+img:hover{
+    transform: none;
+    cursor: default;
+}
